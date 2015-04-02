@@ -11,8 +11,20 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         int i;
-        for (i=0;i<=10000; i+=100) {
+        for (i=0;i<=10;i++)  {
             NSLog (@"%i\n", i);
+            if (i%3==0){
+                NSLog (@"divisable by 3");
+            }
+            else {
+                NSLog(@"not divisable by 3");
+            }
+                
+            
+            
+            
+            
+            
             
         
         }
